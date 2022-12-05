@@ -1,0 +1,9 @@
+.player {
+  padding: 20px;
+  font-size: 30px;
+  border-top: 2px solid #000;
+}
+
+.player:first-child {
+  border-top: 0;
+}

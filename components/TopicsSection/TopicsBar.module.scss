@@ -1,0 +1,14 @@
+.topics {
+  position: relative;
+  display: flex;
+}
+
+.columns {
+  display: flex;
+}
+
+.addTopicButton {
+  position: absolute;
+  top: 0;
+  right: -100px;
+}

@@ -1,0 +1,47 @@
+.topicActions {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 30px;
+}
+
+.action {
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+  text-indent: -9999px;
+  background: lightgray;
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.editAction {
+  text-indent: 0;
+}
+
+.deleteAction {
+  position: relative;
+}
+
+.deleteAction::before,
+.deleteAction::after {
+  content: '';
+  position: absolute;
+  top: 5px;
+  left: 9px;
+  width: 2px;
+  height: 10px;
+  border-radius: 4px;
+  background-color: red;
+}
+
+.deleteAction::before {
+  transform: rotate(-45deg);
+}
+
+.deleteAction::after {
+  transform: rotate(45deg);
+}

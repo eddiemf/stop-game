@@ -1,0 +1,29 @@
+.topic {
+  position: relative;
+  min-width: 100px;
+  padding: 0 20px 20px;
+  text-align: center;
+  border-right: 2px solid #000;
+}
+
+.topic:last-child {
+  border-right: 0;
+}
+
+.topic input {
+  display: block;
+  margin-bottom: 2px;
+}
+
+.topic p {
+  margin: 0;
+}
+
+.saveButton {
+  display: block;
+  width: 100%;
+  border: 0;
+  border-radius: 2px;
+  background: lightgreen;
+  cursor: pointer;
+}

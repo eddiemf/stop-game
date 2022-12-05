@@ -1,0 +1,23 @@
+.game {
+  position: relative;
+  display: flex;
+  width: 100%;
+  padding: 20px;
+  min-height: 60px;
+  border: 1px solid #000;
+  background-color: #afafaf;
+}
+
+.mainColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+}
